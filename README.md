@@ -1,4 +1,14 @@
+# How to make your pull request#
+
+1. Fork this repo.
+2. Make some change.
+3. Pull request
+
+More info, Please google `github cooperation`
+
+
 # CrawlerProject #
+
 This is repository for CAC crawler project. 
 
 Please read the google-styleguide before coding. And the detail of git usage is needed. 
