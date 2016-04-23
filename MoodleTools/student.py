@@ -2,7 +2,7 @@ from urllib import request, parse
 
 from .moodleParser import MoodleParser
 from .config import StudentConfig
-
+from .error import *
 
 class Student:
     """ The basic class for student
