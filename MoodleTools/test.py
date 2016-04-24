@@ -1,4 +1,6 @@
 from .student import Student
+from .error import *
+
 from getpass import getpass
 
 if __name__ == '__main__':
@@ -8,4 +10,7 @@ if __name__ == '__main__':
     student = Student(user_id, password)
     try:
         student.get_index()
-    except 
+    except LoginFailed as e:
+        print("Wrong id or password!")
+    except NetworkError as e:
+        print("Cannot connect to moodle!")
