@@ -1,5 +1,8 @@
 from urllib import request, parse
+<<<<<<< HEAD
 import requests
+=======
+>>>>>>> computercomity/master
 import json
 
 from .moodleParser import MoodleParser
