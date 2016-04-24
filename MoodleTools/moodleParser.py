@@ -12,7 +12,7 @@ class MoodleParser:
      Student class provide hte top api for user."""
     def __init__(self, html_page):
         self.soup = BeautifulSoup(html_page)
-        self.moodle_tag = MoodleConfig()  #
+        self.moodle_conf = MoodleConfig()  # the variable defined in MoodleConfig() can be use here
 
     def get_ddl(self):
         pass
