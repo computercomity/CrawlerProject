@@ -1,4 +1,4 @@
-from .student import Student
+from student import Student
 
 
 if __name__ == '__main__':

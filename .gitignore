@@ -1,2 +1,4 @@
 # pycharm
 .idea/
+# Py cache
+*__pycache__/
