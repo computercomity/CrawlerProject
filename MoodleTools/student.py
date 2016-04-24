@@ -1,4 +1,5 @@
 from urllib import request, parse
+import json
 
 from .moodleParser import MoodleParser
 from .config import StudentConfig
