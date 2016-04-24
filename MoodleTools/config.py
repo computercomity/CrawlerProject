@@ -6,6 +6,7 @@ class Config:
 
     basic configuration for this project."""
     MOODLE_LOGIN_URL = 'http://elearning.cuhk.edu.cn/login/index.php'
+    MOODLE_URL = 'http://elearning.cuhk.edu.cn/'
 
 
 class MoodleConfig(Config):
