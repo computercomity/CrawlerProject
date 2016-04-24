@@ -1,9 +1,6 @@
 from urllib import request, parse
 import requests
-<<<<<<< HEAD
 import cookies
-=======
->>>>>>> master
 import json
 import re
 
