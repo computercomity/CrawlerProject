@@ -1,4 +1,4 @@
-from MoodleTools.student import Student
+from student import Student
 
 from getpass import getpass
 
