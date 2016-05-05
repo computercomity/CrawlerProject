@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 
-from .config import MoodleConfig
-from .error import *
+from MoodleTools.config import MoodleConfig
+from MoodleTools.error import *
 
 
 class MoodleParser:
